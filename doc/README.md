@@ -3,7 +3,7 @@ BitF Core
 
 Setup
 ---------------------
-[BitF Core](http://savebitcoin.io) is the original BitF client and it builds the backbone of the network. However, it downloads and stores the entire history of BitF transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[BitF Core](http://bitf.cc) is the original BitF client and it builds the backbone of the network. However, it downloads and stores the entire history of BitF transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -26,7 +26,7 @@ Drag BitF-Qt to your applications folder, and then run BitF-Qt.
 
 ### Need Help?
 
-* Join our Discord server [Discord Server](https://discord.savebitcoin.io)
+* Join our Discord server [Discord Server](https://discord.gg/ZC7b5p)
 
 Building
 ---------------------
