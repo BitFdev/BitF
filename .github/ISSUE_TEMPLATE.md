@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
 This issue tracker is only for technical issues related to BitF Core.
-General BitF questions and/or support requests and are best directed to the [BitF Discord](https://discord.savebitcoin.io).
+General BitF questions and/or support requests and are best directed to the [BitF Discord](https://discord.gg/ZC7b5p).
 
 ### Describe the issue
 
