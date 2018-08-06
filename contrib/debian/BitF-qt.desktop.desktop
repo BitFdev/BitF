@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BitF
+Comment=BitF P2P Cryptocurrency
+Exec=BitF-qt %u
+Terminal=false
+Type=Application
+Icon=BitF128
+MimeType=x-scheme-handler/BitF;
+Categories=Office;Finance;
+Name[en_US]=BitF-qt.desktop

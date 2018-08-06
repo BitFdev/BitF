@@ -1,0 +1,26 @@
+[Unit]
+Description=BitF's distributed currency daemon
+After=network.target
+
+[Service]
+User=BitF
+Group=BitF
+
+Type=forking
+PIDFile=/var/lib/BitFd/BitFd.pid
+
+ExecStart=/usr/bin/BitFd -daemon -pid=/var/lib/BitFd/BitFd.pid \
+          -conf=/etc/BitF/BitF.conf -datadir=/var/lib/BitFd
+
+ExecStop=-/usr/bin/BitF-cli -conf=/etc/BitF/BitF.conf \
+         -datadir=/var/lib/BitFd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,26 @@
+# /etc/conf.d/BitFd: config file for /etc/init.d/BitFd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/BitF/BitF.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/BitFd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/BitFd.pid"
+
+# Where to write BitFd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/BitFd"
+
+# User and group to own BitFd process
+#BITCOIND_USER="BitF"
+#BITCOIND_GROUP="BitF"
+
+# Path to BitFd executable
+#BITCOIND_BIN="/usr/bin/BitFd"
+
+# Nice value to run BitFd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

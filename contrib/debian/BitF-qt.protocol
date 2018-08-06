@@ -1,0 +1,11 @@
+[Protocol]
+exec=BitF-qt '%u'
+protocol=BitF
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
