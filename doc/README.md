@@ -38,7 +38,7 @@ The following are developer notes on how to build BitF on your native platform. 
 
 Development
 ---------------------
-The BitF repo's [root README](https://github.com/BitF/BitF/blob/master/README.md) contains relevant information on the development process and automated testing.
+The BitF repo's [root README](https://github.com/BitFdev/BitF-source-code/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
