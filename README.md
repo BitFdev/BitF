@@ -6,4 +6,13 @@ BitF (BITF) is a project inspired by the Bitcoin blockchain.  The BitF blockchai
 - Decentralized blockchain voting providing for consensus based advancement of the current Masternode
   technology used to secure the network and provide the above features, each Masternode is secured
   with a collateral of 5000 BitF.
+  
+  Website: https://www.bitf.cc 
+  Twitter: https://twitter.com/BitFdev 
+  Telegram: https://t.me/BitFChat 
+  Steemit: https://steemit.com/@BitF 
+  Reddit: https://www.reddit.com/r/BitFCoin/
+  Block Explorer: http://blockexplorer.bitf.cc 
+  Exchange: https://crex24.com/?refid=oqcnzhcqb1bf7nbddomm
+
 
