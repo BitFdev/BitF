@@ -17,7 +17,7 @@
 +#if !defined(Q_OS_WINCE) && (!defined(USE___UUIDOF) || (defined(USE___UUIDOF) && USE___UUIDOF == 1))
  // Re-engineered from the inline function _com_error::ErrorMessage().
  // We cannot use it directly since it uses swprintf_s(), which is not
- // present in the MSVCRT.BitFL found on Windows XP (QTBUG-35617).
+ // present in the MSVCRT.DLL found on Windows XP (QTBUG-35617).
 @@ -833,7 +833,7 @@
           return QString::asprintf("IDispatch error #%u", uint(wCode));
       return QString::asprintf("Unknown error 0x0%x", uint(comError.Error()));
